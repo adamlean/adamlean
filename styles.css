@@ -23,13 +23,12 @@ html, body {
 
 section {
   width: 100%;
-  box-sizing: border-box;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1152px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 60px;
 }
 
 h2 {
@@ -48,40 +47,25 @@ p {
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 64px;
-  background-color: #ffffff;
+  flex-direction: row;
+  justify-content: right;
+  text-align: right;
+  margin-top: 27px;
 }
 
-.logo {
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-left: 152px;
-}
-
-.logo span {
-  color: #333;
-  font-weight: normal;
-}
-
-.nav {
+.nav-menu {
   display: flex;
   gap: 24px;
-  align-items: center;
 }
 
-.nav a {
+.nav-menu a {
   text-decoration: none;
   color: #111;
-  font-size: 1rem;
-}
-
-.nav .button {
-  padding: 10px 16px;
-  background-color: #000;
-  color: #fff;
-  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: right;
 }
 
 /* Hero section */
@@ -96,12 +80,12 @@ p {
   display: flex;
   flex-direction: row;
   width: 100%;
+  gap: 115px;
 }
 
 .hero-text {
   width: 50%;
-  margin-top: 137px;
-  margin-left: 100px;
+  margin-top: 140px;
 }
 
 .subheading {
@@ -135,15 +119,21 @@ p {
 }
 
 .hero-image {
-  width: 50%;
-  height: 100vh;
+  display: flex;
+  gap: 106px;
 }
 
 .hero-image img {
-  width: 100wv;
-  height: 100vh;
-  border-radius: 0;
-  object-fit: cover;
+  margin-top: 140px;
+}
+
+button {
+  margin-top: 38px;
+  width: 208px;
+  height: 47px;
+  
+  background: #FF6464;
+  border-radius: 2px;
 }
 
 /* Our Firm */
