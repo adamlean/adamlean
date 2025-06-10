@@ -120,10 +120,10 @@ p {
 
 .description {
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 100%;
   color: #333;
   max-width: 500px;
-  margin-bottom: 32px;
+  margin-bottom: 38px;
 }
 
 .read-more {
