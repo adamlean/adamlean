@@ -112,10 +112,10 @@ p {
 }
 
 .heading {
-  font-size: 3.5rem;
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 24px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
 }
 
 .description {
