@@ -228,4 +228,6 @@ button {
   margin: 0 8px;
   display: inline-block;
   color: black;
+  width: 30px;
+  height: 30px;
 }
