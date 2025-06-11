@@ -240,3 +240,42 @@ button {
   margin: 0 auto;
   padding: 0 auto;
 }
+
+.blog-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1e1e1e;
+}
+
+.blog-post {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.blog-post h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #2c2c2c;
+}
+
+.meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.meta .tags {
+  color: #a0aec0;
+}
+
+.divider {
+  margin: 0 8px;
+}
+
+.blog-post p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
