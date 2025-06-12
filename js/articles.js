@@ -1,14 +1,24 @@
-fetch('../data/articles.json')
-  .then(res => res.json())
-  .then(posts => {
-    const container = document.getElementById('posts');
-    posts.forEach(post => {
-      container.innerHTML += `
-        <div class="post">
-          <h2><a href="${post.url}">${post.title}</a></h2>
-          <p>${post.date} | ${post.tags}</p>
+document.addEventListener('DOMContentLoaded', function () {
+  fetch('../data/articles.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('posts-container');
+
+      data.forEach(post => {
+        const postEl = document.createElement('div');
+        postEl.classList.add('post');
+
+        postEl.innerHTML = `
+          <h2>${post.title}</h2>
+          <p><strong>${post.date}</strong> | ${post.tags.join(', ')}</p>
           <p>${post.excerpt}</p>
-        </div>
-      `;
+          <hr>
+        `;
+
+        container.appendChild(postEl);
+      });
+    })
+    .catch(error => {
+      console.error('Ошибка при загрузке постов:', error);
     });
-  });
+});
