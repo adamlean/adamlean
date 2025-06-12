@@ -281,3 +281,36 @@ button {
 }
 
 /* Articles */
+
+.work-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.intro h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.meta {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.meta .year {
+  background-color: #FF6464;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.project-image img,
+.content img {
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 8px;
+}
