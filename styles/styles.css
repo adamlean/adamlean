@@ -194,7 +194,8 @@ button {
   margin-bottom: 30px;
 }
 
-.work-item h3 {
+.work-item h3,
+.work-item a {
   font-size: 30px;
   text-decoration: none;
   color: black;
