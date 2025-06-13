@@ -16,6 +16,39 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
+
+    <script>
+  (async function () {
+    const savedLang = localStorage.getItem("lang");
+    const urlLang = window.location.pathname.split('/')[1];
+    const supported = ["ru", "en"];
+
+    // Если уже выбран язык и он поддерживается — не редиректим
+    if (savedLang && supported.includes(savedLang)) return;
+
+    try {
+      const res = await fetch("https://ipapi.co/json/");
+      const geo = await res.json();
+      const country = geo.country.toLowerCase();
+
+      const browserLang = navigator.language?.split("-")[0] || "ru";
+
+      const isRussianGeo = ["ru", "by", "kz", "ua", "uz", "kg"].includes(country);
+      const isRussianLang = browserLang === "ru";
+
+      // Если не русский язык и не RU/CIS — редиректим
+      if (!isRussianGeo && !isRussianLang) {
+        localStorage.setItem("lang", "en");
+        window.location.replace("/en/");
+      } else {
+        localStorage.setItem("lang", "ru");
+      }
+    } catch (e) {
+      // fallback: не редиректим
+    }
+  })();
+</script>
+
   </head>
   <body>
     <header class="header">
