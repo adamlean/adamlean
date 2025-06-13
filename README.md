@@ -1,4 +1,4 @@
-# Crash The Routines
+# Adam Lean
 
 [Русский](./docs/README_Ru.md) [Spanish](./docs/README_ES.md)
 
