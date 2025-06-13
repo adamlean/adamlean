@@ -3,7 +3,6 @@
 [Русский](README_Ru.md) [English](../README.md)
 
 Hola, soy Adam Lean, desarrollador web, músico y bloguero.
-Crash The Routines: este es el nombre que uso para crear sitios web y aplicaciones.
 
 ## Instrumentos
 
@@ -27,13 +26,3 @@ Crash The Routines: este es el nombre que uso para crear sitios web y aplicacion
 
 - _[Crash The Routines](https://crashtheroutines.netlify.app) (Portfolio)_
 - _[Crash The DevKit](https://github.com/crashtheroutines/crashthedevkits) (UI Kits Library)_
-- _[exhum0](https://exhum0.netlify.app) (Boom Bap / 90s Hip Hop)_
-
-## Contactos
-
-EMail: crashtheroutine@gmail.com
-
-## Autor & Marca
-
-Este proyecto ha sido desarrollado por [CrashTheRoutines](https://crashtheroutines.netlify.app).  
-El código tiene licencia MIT, pero la marca y la identidad visual están protegidas y no pueden reutilizarse.
