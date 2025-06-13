@@ -201,6 +201,10 @@ button {
   color: black;
 }
 
+.work-item a:hover {
+  color: red;
+}
+
 .work-item img {
   width: 246px;
   height: 180px;
