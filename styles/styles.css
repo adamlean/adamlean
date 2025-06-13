@@ -196,6 +196,7 @@ button {
 
 .work-item h3 {
   font-size: 30px;
+  text-decoration: none;
 }
 
 .work-item img {
