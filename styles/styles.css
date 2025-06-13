@@ -220,6 +220,14 @@ button {
   font-weight: bold;
 }
 
+/* Form */
+
+input, textarea {
+  background-color: #ffffff;
+  color: #b8b8b8;
+  border: 1px solid #ccc;
+}
+
 /* Footer */
 
 .footer {
